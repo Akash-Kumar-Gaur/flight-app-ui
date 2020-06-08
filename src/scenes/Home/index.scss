@@ -1,0 +1,66 @@
+$myOrange: '#ec6d39';
+
+.homeContainer {
+  background: #8c8c8c20;
+  min-height: 100vh;
+
+  .leftNav {
+    display: flex;
+    align-items: center;
+    img {
+      width: 8rem;
+      padding: 1rem 2rem;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+    font-weight: 600;
+    color: #444;
+    img {
+      width: 1.5rem;
+      padding: .5rem;
+      cursor: pointer;
+    }
+  }
+
+  .header {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navigation {
+    height: 100%;
+
+    .nav-ul {
+      li {
+        display: inline;
+        padding-bottom: 1.2rem;
+        margin: 1rem;
+        color: #444;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .active {
+        border-bottom: 3px solid #ec6d39;
+      }
+    }
+  }
+
+  .layout {
+    padding: 2rem 5rem;
+    display: flex;
+    .filters-wrapper {
+      width: 30%;
+    }
+    .results-wrapper {
+      width: 70%;
+    }
+  }
+}
